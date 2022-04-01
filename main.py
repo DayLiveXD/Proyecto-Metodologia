@@ -3,9 +3,9 @@ import numpy as np
 ROWS = 6
 COLS = 7
 
-
+#Funciones para el juego
 def create_board():
-    board = np.zeros((6, 7))
+    board = np.zeros((ROWS, COLS))
     return board
 
 
@@ -14,7 +14,7 @@ def drop_piece(board, row, col, piece):
 
 
 def is_valid_location(board, col):
-    return board[5][col] == 0
+    return board[ROWS-1][col] == 0
 
 
 def get_next_open_row(board, col):
@@ -26,6 +26,21 @@ def get_next_open_row(board, col):
 def print_board(board):
     print(np.flip(board, 0))
 
+def winning_move(board, piece):
+      #Verificar movimientos ganadores horizontales
+      for c in range(COLS - 3):
+          for r in range(ROWS - 3):
+              if board[r][c] == piece and board[r][c+1] == piece and board[r][c+2] == piece and board[r][c+3] == piece:
+                  return True
+     #Verificar movimientos ganadores verticales
+     for c in range(COLS):
+         for r in range(ROWS - 3):
+             if board[r][c] == piece and board[r+1][c] == piece and board[r+2][c] == piece and board[r+3][c] == piece:
+                 return True
+
+####################################################################################################################################
+
+#Main
 
 board = create_board()
 game_over = False
@@ -39,6 +54,9 @@ while not game_over:
             row = get_next_open_row(board, col)
             drop_piece(board, row, col, 1)
             print_board(board)
+            if winning_move(board, 1):
+                print("Jugador 1 gana")
+                game_over = True
 #Preguntar por el jugador 2
     else:
         col = int(input("Jugador 2, ingresa una columna: "))
@@ -47,5 +65,8 @@ while not game_over:
             row = get_next_open_row(board, col)
             drop_piece(board, row, col, 2)
             print_board(board)
+            if winning_move(board, 2):
+                print("Jugador 2 gana")
+                game_over = True
     turn += 1
     turn = turn % 2

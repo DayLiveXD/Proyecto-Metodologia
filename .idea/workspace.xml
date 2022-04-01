@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a29cb28-c92a-4f41-9e50-22a50638a1a9" name="Changes" comment="Primera iteracion">
+    <list default="true" id="5a29cb28-c92a-4f41-9e50-22a50638a1a9" name="Changes" comment="Revision 1 de la primera iteracion">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -82,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648760297079</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Revision 1 de la primera iteracion">
+      <created>1648838117245</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1648838117245</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -100,6 +107,7 @@
     <MESSAGE value="Nueva V" />
     <MESSAGE value="Inicio" />
     <MESSAGE value="Primera iteracion" />
-    <option name="LAST_COMMIT_MESSAGE" value="Primera iteracion" />
+    <MESSAGE value="Revision 1 de la primera iteracion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revision 1 de la primera iteracion" />
   </component>
 </project>
