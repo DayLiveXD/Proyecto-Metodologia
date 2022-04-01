@@ -1,5 +1,6 @@
 import numpy as np
 import pygame
+import sys
 
 ROWS = 6
 COLS = 7
@@ -46,15 +47,36 @@ def winning_move(board, piece):
                     if board[r][c] == piece and board[r-1][c+1] == piece and board[r-2][c+2] == piece and board[r-3][c+3] == piece:
                         return True
 
-####################################################################################################################################
+def draw_board(board):
+    for c in range(COLS):
+        for r in range(ROWS):
+            pygame.draw.rect(screen, BLUE, (c*SQUARESIZE, r*SQUARESIZE+SQUARESIZE, SQUARESIZE, SQUARESIZE))
+            pygame.draw.circle(screen, BLACK, (int(c*SQUARESIZE+SQUARESIZE/2), int(r*SQUARESIZE+SQUARESIZE+SQUARESIZE/2)), RADIUS)
 
+####################################################################################################################################
 #Main
 
 board = create_board()
 game_over = False
 turn = 0
 print_board(board)
+pygame.init()
+
+SQUARESIZE = 100
+
+width = COLS * SQUARESIZE
+height = (ROWS + 1) * SQUARESIZE
+size = (width, height)
+screen = pygame.display.set_mode(size)
+
 while not game_over:
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            sys.exit()
+
+        if event.type == pygame.MOUSEMOTION:
+            continue
+
 #Preguntar por el jugador 1
     if turn == 0:
         col = int(input("Jugador 1, ingresa una columna: "))

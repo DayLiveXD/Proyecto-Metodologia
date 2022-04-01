@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a29cb28-c92a-4f41-9e50-22a50638a1a9" name="Changes" comment="Se agrego &quot;Winning moves&quot; y un poco de orden">
+    <list default="true" id="5a29cb28-c92a-4f41-9e50-22a50638a1a9" name="Changes" comment="Se agregaron mas winning moves y se arreglo la identacion">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -96,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648838989745</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Se agregaron mas winning moves y se arreglo la identacion">
+      <created>1648848731267</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1648848731267</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -116,6 +123,7 @@
     <MESSAGE value="Primera iteracion" />
     <MESSAGE value="Revision 1 de la primera iteracion" />
     <MESSAGE value="Se agrego &quot;Winning moves&quot; y un poco de orden" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se agrego &quot;Winning moves&quot; y un poco de orden" />
+    <MESSAGE value="Se agregaron mas winning moves y se arreglo la identacion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se agregaron mas winning moves y se arreglo la identacion" />
   </component>
 </project>
