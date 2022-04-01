@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a29cb28-c92a-4f41-9e50-22a50638a1a9" name="Changes" comment="Inicio">
+    <list default="true" id="5a29cb28-c92a-4f41-9e50-22a50638a1a9" name="Changes" comment="Primera iteracion">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -12,6 +12,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/main.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -72,7 +75,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648690114239</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Primera iteracion">
+      <created>1648760297079</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1648760297079</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -89,6 +99,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Nueva V" />
     <MESSAGE value="Inicio" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inicio" />
+    <MESSAGE value="Primera iteracion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Primera iteracion" />
   </component>
 </project>
