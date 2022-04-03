@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a29cb28-c92a-4f41-9e50-22a50638a1a9" name="Changes" comment="Se agregaron mas winning moves y se arreglo la identacion">
+    <list default="true" id="5a29cb28-c92a-4f41-9e50-22a50638a1a9" name="Changes" comment="Se agrego una intefaz con pygame y tablero con colores, FUTURA ACTUALIZACION: Fichas y movimiento">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -103,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648848731267</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Se agrego una intefaz con pygame y tablero con colores, FUTURA ACTUALIZACION: Fichas y movimiento">
+      <created>1648945158584</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1648945158584</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,6 +131,7 @@
     <MESSAGE value="Revision 1 de la primera iteracion" />
     <MESSAGE value="Se agrego &quot;Winning moves&quot; y un poco de orden" />
     <MESSAGE value="Se agregaron mas winning moves y se arreglo la identacion" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se agregaron mas winning moves y se arreglo la identacion" />
+    <MESSAGE value="Se agrego una intefaz con pygame y tablero con colores, FUTURA ACTUALIZACION: Fichas y movimiento" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se agrego una intefaz con pygame y tablero con colores, FUTURA ACTUALIZACION: Fichas y movimiento" />
   </component>
 </project>
