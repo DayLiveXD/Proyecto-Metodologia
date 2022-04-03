@@ -4,6 +4,9 @@ import sys
 
 ROWS = 6
 COLS = 7
+BLUE = (0, 0, 255)
+BLACK = (0, 0, 0)
+
 
 #Funciones para el juego
 def create_board():
@@ -63,40 +66,40 @@ print_board(board)
 pygame.init()
 
 SQUARESIZE = 100
-
+RADIUS = int(SQUARESIZE/2 - 5)
 width = COLS * SQUARESIZE
 height = (ROWS + 1) * SQUARESIZE
 size = (width, height)
 screen = pygame.display.set_mode(size)
-
+draw_board(board)
+pygame.display.update()
 while not game_over:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             sys.exit()
 
         if event.type == pygame.MOUSEMOTION:
-            continue
 
-#Preguntar por el jugador 1
-    if turn == 0:
-        col = int(input("Jugador 1, ingresa una columna: "))
-        if is_valid_location(board, col):
-            row = get_next_open_row(board, col)
-            drop_piece(board, row, col, 1)
-            print_board(board)
-            if winning_move(board, 1):
-                print("Jugador 1 gana")
-                game_over = True
-#Preguntar por el jugador 2
-    else:
-        col = int(input("Jugador 2, ingresa una columna: "))
+            #Preguntar por el jugador 1
+            if turn == 0:
+                col = int(input("Jugador 1, ingresa una columna: "))
+                if is_valid_location(board, col):
+                    row = get_next_open_row(board, col)
+                    drop_piece(board, row, col, 1)
+                    print_board(board)
+                    if winning_move(board, 1):
+                        print("Jugador 1 gana")
+                        game_over = True
+        #Preguntar por el jugador 2
+            else:
+                col = int(input("Jugador 2, ingresa una columna: "))
 
-        if is_valid_location(board, col):
-            row = get_next_open_row(board, col)
-            drop_piece(board, row, col, 2)
-            print_board(board)
-            if winning_move(board, 2):
-                print("Jugador 2 gana")
-                game_over = True
-    turn += 1
-    turn = turn % 2
+                if is_valid_location(board, col):
+                    row = get_next_open_row(board, col)
+                    drop_piece(board, row, col, 2)
+                    print_board(board)
+                    if winning_move(board, 2):
+                        print("Jugador 2 gana")
+                        game_over = True
+            turn += 1
+            turn = turn % 2
