@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a29cb28-c92a-4f41-9e50-22a50638a1a9" name="Changes" comment="Se agrego una intefaz con pygame y tablero con colores, FUTURA ACTUALIZACION: Fichas y movimiento">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="5a29cb28-c92a-4f41-9e50-22a50638a1a9" name="Changes" comment="1°Juego Terminado (Total de lineas codeadas: 117) Capaz se modifica para meter sonidos, animaciones y un titulo">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +110,21 @@
       <option name="project" value="LOCAL" />
       <updated>1648945158584</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="1°Juego Terminado (Total de lineas codeadas: 117) Capaz se modifica para meter sonidos, animaciones y un titulo">
+      <created>1648951741139</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1648951741139</updated>
+    </task>
+    <task id="LOCAL-00009" summary="1°Juego Terminado (Total de lineas codeadas: 117) Capaz se modifica para meter sonidos, animaciones y un titulo">
+      <created>1648951751512</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1648951751512</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -132,6 +146,7 @@
     <MESSAGE value="Se agrego &quot;Winning moves&quot; y un poco de orden" />
     <MESSAGE value="Se agregaron mas winning moves y se arreglo la identacion" />
     <MESSAGE value="Se agrego una intefaz con pygame y tablero con colores, FUTURA ACTUALIZACION: Fichas y movimiento" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se agrego una intefaz con pygame y tablero con colores, FUTURA ACTUALIZACION: Fichas y movimiento" />
+    <MESSAGE value="1°Juego Terminado (Total de lineas codeadas: 117) Capaz se modifica para meter sonidos, animaciones y un titulo" />
+    <option name="LAST_COMMIT_MESSAGE" value="1°Juego Terminado (Total de lineas codeadas: 117) Capaz se modifica para meter sonidos, animaciones y un titulo" />
   </component>
 </project>
